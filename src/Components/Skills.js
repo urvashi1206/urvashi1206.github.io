@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiTableau, SiOracle } from "react-icons/si";
-import { FaNodeJs, FaPython, FaJava, FaDatabase, FaGitAlt } from "react-icons/fa";
+import { SiMongodb, SiTableau, SiOracle, SiSharp, SiUnity, SiUnrealengine, SiSpringboot, SiAmazonwebservices,SiDocker } from "react-icons/si";
+import { FaNodeJs, FaPython, FaJava, FaDatabase, FaGitAlt, FaJsSquare } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 
@@ -41,8 +41,15 @@ const Technologies = () => {
         {[
           { Icon: FaPython, label: "Python", color: "text-yellow-400" },
           { Icon: FaJava, label: "Java", color: "text-red-500" },
+          { Icon: SiSharp, label: "C#", color: "text-purple-500" },
+          { Icon: FaJsSquare, label: "JavaScript", color: "text-yellow-400" },
           { Icon: SiOracle, label: "Oracle", color: "text-red-700" },
           { Icon: FaDatabase, label: "SQL / PL-SQL", color: "text-blue-500" },
+          { Icon: SiUnity, label: "Unity", style: { color: "#222c37" } },
+          { Icon: SiUnrealengine, label: "Unreal", color: "text-blue-500" },
+          { Icon: SiSpringboot, label: "Spring Boot", color: "text-green-700" },
+          { Icon: SiAmazonwebservices, label: "AWS", color: "text-orange-500" },
+          { Icon: SiDocker, label: "Docker", color: "text-blue-600" },
           { Icon: FaGitAlt, label: "Git", color: "text-orange-600" },
           { Icon: RiReactjsLine, label: "ReactJS", color: "text-cyan-400" },
           { Icon: SiTableau, label: "Tableau", color: "text-blue-500" },
