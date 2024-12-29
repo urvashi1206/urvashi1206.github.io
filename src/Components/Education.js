@@ -1,10 +1,10 @@
-import SchoolIcon from "@material-ui/icons/School";
+import SchoolIcon from '@mui/icons-material/School';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import StarIcon from "@material-ui/icons/Star";
+import StarIcon from "@mui/icons-material/Star";
 
 const Education = () => {
   const items = [

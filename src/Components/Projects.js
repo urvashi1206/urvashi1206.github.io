@@ -1,16 +1,16 @@
-import Chip from "@material-ui/core/Chip";
-import Fab from "@material-ui/core/Fab";
-import Button from "@material-ui/core/Button";
-import AddIcon from "@material-ui/icons/Add";
+import Chip from "@mui/material/Chip";
+import Fab from "@mui/material/Fab";
+import Button from "@mui/material/Button";
+import AddIcon from "@mui/icons-material/Add";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { useState } from "react";
-import CodeIcon from "@material-ui/icons/Code";
-import IconButton from "@material-ui/core/IconButton";
-import RemoveIcon from "@material-ui/icons/Remove";
+import CodeIcon from "@mui/icons-material/Code";
+import IconButton from "@mui/material/IconButton";
+import RemoveIcon from "@mui/icons-material/Remove";
 
 const Projects = () => {
   const items = [
@@ -141,10 +141,11 @@ const Projects = () => {
   };
 
   const addButton = () => (
-    <Fab color="primary" color="blue" aria-label="add">
+    <Fab style={{ backgroundColor: "blue", color: "white" }} aria-label="add">
       <AddIcon />
     </Fab>
   );
+  
 
   return (
     <section id="projects" class="about background-alt">

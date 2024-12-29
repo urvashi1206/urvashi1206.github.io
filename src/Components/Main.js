@@ -5,7 +5,7 @@ import Projects from "./Projects";
 import Education from "./Education";
 import Achievements from "./Achievements";
 import Footer from "./Footer";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 
 const Main = () => (
   <main id="main">

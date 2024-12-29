@@ -3,7 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import WorkIcon from "@material-ui/icons/Work";
+import WorkIcon from "@mui/icons-material/Work";
 
 export default function Experience() {
   const items = [
@@ -50,6 +50,7 @@ export default function Experience() {
       cardDetailedText: [
         "Developed a responsive Online Assessment System platform with a user-friendly interface using JSP, HTML, CSS, and JavaScript.",
         "Engineered the backend with Servlets, Spring Boot, and MySQL, creating 12+ RESTful endpoints.",
+
       ].map(function (text) {
         return <li>{text}</li>;
       }),

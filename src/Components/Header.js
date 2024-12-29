@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SchoolIcon from '@material-ui/icons/School';
+import SchoolIcon from '@mui/icons-material/School';
 
 
 class Header extends React.Component {

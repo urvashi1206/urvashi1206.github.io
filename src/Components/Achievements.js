@@ -2,7 +2,7 @@ import tf_badge from "./images/tf_badge.png";
 import mta from "./images/mta.png";
 import ocajp from "./images/ocajp.png";
 import google_assistant from "./images/google_assistant.png";
-import Button from "@material-ui/core/Button";
+import Button from "@mui/material/Button";
 import Card from "react-bootstrap/Card";
 
 const Achievements = () => {

@@ -1,10 +1,12 @@
 import img from "./images/urvashi.jpg";
-import Typed from "react-typed";
+// import Typed from "react-typed";
+import { Typewriter } from "react-simple-typewriter";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "@material-ui/core/Button";
-import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
+import Button from "@mui/material/Button";
+import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
+
 
 export default function Hero() {
   return (
@@ -20,20 +22,15 @@ export default function Hero() {
                 class="typed"
                 data-typed-items="Game Developer"
               >
-                <Typed
-                  strings={["Software Developer", "Gameplay Programmer", "Data Engineer", "Producer"]}
-                  loop
-                  typeSpeed={90}
-                  backSpeed={60}
-                  smartBackspace
-                  shuffle={false}
-                  backDelay={500}
-                  fadeOut={true}
-                  fadeOutDelay={200}
-                  loopCount={0}
-                  showCursor
-                  cursorChar="|"
-                />
+                <Typewriter
+                  words={["Software Developer", "Gameplay Programmer", "Data Engineer", "Producer"]}
+                  loop={true} // Ensures it keeps looping
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={90} // Speed for typing
+                  deleteSpeed={60} // Speed for deleting
+                  delaySpeed={500} // Delay before starting the next word
+  />
               </span>
             </p>
             <div class="social-links">
@@ -68,7 +65,7 @@ export default function Hero() {
               <Button
                 variant="outlined"
                 target="_blank"
-                href="https://drive.google.com/file/d/1pVWELcJVwjy4XQHCFpC6DUVjHLaWKsA9/view?usp=drive_link"
+                href="https://drive.google.com/drive/u/0/folders/1CyNbiF5iMgCsjPZTbyZGJL2NEscVr0rD"
                 startIcon={<CloudDownloadIcon />}
                 style={{
                   color: "rgb(116, 128, 138)",
