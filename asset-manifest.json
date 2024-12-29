@@ -1,33 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.fd1ce086.chunk.css",
-    "main.js": "/static/js/main.50989ebc.chunk.js",
-    "main.js.map": "/static/js/main.50989ebc.chunk.js.map",
+    "main.js": "/static/js/main.4e7eb1cf.chunk.js",
+    "main.js.map": "/static/js/main.4e7eb1cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.645ec85e.js",
     "runtime-main.js.map": "/static/js/runtime-main.645ec85e.js.map",
     "static/css/2.cd295023.chunk.css": "/static/css/2.cd295023.chunk.css",
-    "static/js/2.84326ad7.chunk.js": "/static/js/2.84326ad7.chunk.js",
-    "static/js/2.84326ad7.chunk.js.map": "/static/js/2.84326ad7.chunk.js.map",
+    "static/js/2.f845629e.chunk.js": "/static/js/2.f845629e.chunk.js",
+    "static/js/2.f845629e.chunk.js.map": "/static/js/2.f845629e.chunk.js.map",
     "static/js/3.8edefa3d.chunk.js": "/static/js/3.8edefa3d.chunk.js",
     "static/js/3.8edefa3d.chunk.js.map": "/static/js/3.8edefa3d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cd295023.chunk.css.map": "/static/css/2.cd295023.chunk.css.map",
     "static/css/main.fd1ce086.chunk.css.map": "/static/css/main.fd1ce086.chunk.css.map",
-    "static/js/2.84326ad7.chunk.js.LICENSE.txt": "/static/js/2.84326ad7.chunk.js.LICENSE.txt",
-    "static/media/6.62e47c5a.jpg": "/static/media/6.62e47c5a.jpg",
-    "static/media/bhushan_2.72ec3b24.jpeg": "/static/media/bhushan_2.72ec3b24.jpeg",
+    "static/js/2.f845629e.chunk.js.LICENSE.txt": "/static/js/2.f845629e.chunk.js.LICENSE.txt",
     "static/media/bootstrap-icons.css": "/static/media/bootstrap-icons.7d38a258.woff",
     "static/media/boxicons.min.css": "/static/media/boxicons.cbd149c5.ttf",
     "static/media/google_assistant.5421e7b9.png": "/static/media/google_assistant.5421e7b9.png",
     "static/media/mta.971f28dc.png": "/static/media/mta.971f28dc.png",
     "static/media/ocajp.e53c4306.png": "/static/media/ocajp.e53c4306.png",
-    "static/media/tf_badge.cc02cb13.png": "/static/media/tf_badge.cc02cb13.png"
+    "static/media/tf_badge.cc02cb13.png": "/static/media/tf_badge.cc02cb13.png",
+    "static/media/urvashi.a6de7e80.jpg": "/static/media/urvashi.a6de7e80.jpg",
+    "static/media/urvashi_.cbc594f1.jpg": "/static/media/urvashi_.cbc594f1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.645ec85e.js",
     "static/css/2.cd295023.chunk.css",
-    "static/js/2.84326ad7.chunk.js",
+    "static/js/2.f845629e.chunk.js",
     "static/css/main.fd1ce086.chunk.css",
-    "static/js/main.50989ebc.chunk.js"
+    "static/js/main.4e7eb1cf.chunk.js"
   ]
 }
