@@ -9,27 +9,36 @@ import StarIcon from "@material-ui/icons/Star";
 const Education = () => {
   const items = [
     {
-      cardTitle: "Trinity College Dublin",
-      cardSubtitle: "MSc - Intelligent Systems",
+      cardTitle: "Rochester Institute of Technology",
+      cardSubtitle: "MSc - Game Design and Development",
       coursesHead: "Courses: ",
       cardDetailedText: [
-        "Machine Learning",
-        "Information Retrieval and Web Search",
-        "Data Analytics",
-        "Knowledge and Data Engineering",
-        "Advanced Software Engineering",
-        "Artificial Intelligence",
-        "Text Analytics",
+        "Game Design",
+        "Gameplay and Prototyping",
+        "Applications in Virtual Reality",
+        "Game Graphics Programming",
+        "Level Design",
+        "Game Development Processes",
+        "Capstone Design",
       ].map(function (course) {
         return <li>{course}</li>;
       }),
-      date: "2021 - 2022",
+      date: "2023 - Present",
     },
     {
-      cardTitle: "St. Francis Institute Of Technology",
-      cardSubtitle: "BE in Computer Engineering",
-      cardDetailedText: "CGPA: 8.72 (First class with Distinction)",
-      date: "2016 - 2020",
+      cardTitle: "Fr. Conceicao Rodrigues College of Engineering",
+      cardSubtitle: "BE in Electronics Engineering",
+      cardDetailedText: "CGPA: 9.52 (Best in Academics)",
+      coursesHead: "Courses: ",
+      cardDetailedText: [
+        "Data Structures and Algorithms",
+        "Big Data Analytics",
+        "Database Management System",
+        "Cloud Computing",
+      ].map(function (course) {
+        return <li>{course}</li>;
+      }),
+      date: "2017 - 2021",
     },
   ];
 

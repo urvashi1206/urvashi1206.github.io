@@ -15,7 +15,7 @@ const Main = () => (
     <Skills />
     <Achievements />
     <Education />
-    <Contact />
+    {/* <Contact /> */}
     <hr />
     <Footer />
   </main>

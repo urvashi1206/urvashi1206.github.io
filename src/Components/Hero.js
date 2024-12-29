@@ -1,4 +1,4 @@
-import img from "./images/6.jpg";
+import img from "./images/urvashi.jpg";
 import Typed from "react-typed";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -51,18 +51,33 @@ export default function Hero() {
               </a>
             </div>
             <br />
-            <Button
-              variant="outlined"
-              target="_blank"
-              href="https://drive.google.com/file/d/1XVfSZNcC6P9QlmEgA3s1Ebi23kydQGYj/view?usp=sharing"
-              startIcon={<CloudDownloadIcon />}
-              style={{
-                color: "rgb(116, 128, 138)",
-                borderColor: "rgb(116, 128, 138)",
-              }}
-            >
-              Download Resume
-            </Button>
+            <div style={{ display: "flex", gap: "15px", marginTop: "10px" }}>
+              <Button
+                variant="outlined"
+                target="_blank"
+                href="https://drive.google.com/file/d/1pdTXUh4Zewe_S1dLpmxSZee-yeFywLvd/view?usp=drive_link"
+                startIcon={<CloudDownloadIcon />}
+                style={{
+                  color: "rgb(116, 128, 138)",
+                  borderColor: "rgb(116, 128, 138)",
+                }}
+              >
+                Download Resume
+              </Button>
+
+              <Button
+                variant="outlined"
+                target="_blank"
+                href="https://drive.google.com/file/d/1pVWELcJVwjy4XQHCFpC6DUVjHLaWKsA9/view?usp=drive_link"
+                startIcon={<CloudDownloadIcon />}
+                style={{
+                  color: "rgb(116, 128, 138)",
+                  borderColor: "rgb(116, 128, 138)",
+                }}
+              >
+                Download Resume
+              </Button>
+            </div>
           </Col>
           <Col
             lg={6}

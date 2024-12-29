@@ -8,44 +8,51 @@ import WorkIcon from "@material-ui/icons/Work";
 export default function Experience() {
   const items = [
     {
-      date: "September 2022 - Present",
-      cardTitle: "Microsoft",
-      cardSubtitle: "Software Engineer",
+      date: "August 2023 - Present",
+      cardTitle: "Rochester Institute of Technology",
+      cardSubtitle: "Research Assistant",
       cardDetailedText: [
-        "Developing automated systems that detect security issues and manage workflows across Azure Identity services on a global scale.",
-        "Implement privacy-enhancing technologies to ensure compliance with applicable privacy laws and regulations.",
+        "Configured NVIDIA Omniverse core components (USD, Connectors, Kit SDK), enabling real-time 3D collaboration.",
+        "Building digital twins and 3D prototypes using Action Graphs and physics simulations, leveraging RTX.",
+        "Enhanced AI-powered gaming environments using Llama and Alpaca LLMs with PDDL, tailored to user-specific playstyles.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
     {
-      date: "November 2020 – February 2021",
-      cardTitle: "Mobisy Technologies",
-      cardSubtitle: "Research & Development Intern",
+      date: "May 2024 – July 2024",
+      cardTitle: "Magic Spell Studios at RIT",
+      cardSubtitle: "Backend Engineer",
       cardDetailedText: [
-        "Collected JSON data by web-scraping, using open API end points and storing it in a RDBMS.",
-        "Responsible for building SKU Classification system using the collected data.",
+        "Programmed a VR prototype in C# to integrate data from the SMART FHIR server.",
+        "Engineered ETL pipelines to ingest data into SQLite, while ensuring HIPAA compliance.",
+        "Conducted performance analysis with Visual Studio Profiler and optimized memory management in C#.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
     {
-      date: "September 2019 – October 2019",
-      cardTitle: "Techskills IT Consultants",
-      cardSubtitle: "Backend Developer",
+      date: "July 2021 – June 2023",
+      cardTitle: "Quantiphi Analytics Solutions Pvt. Ltd.",
+      cardSubtitle: "Data Engineer",
       cardDetailedText: [
-        "Developed applications using Spring Framework for Backend Restful API’s.",
-        "Wrote SQL/JPQL queries for Data persistence using Spring Data JPA.",
+        "Created Python scripts for ETL, migrating 10+ TB of data from SQL Server to Snowflake.",
+        "Engineered ETL pipelines with AWS Lambda and AWS Glue, automating data processing and storage in AWS S3.",
+        "Built Azure workflows using Azure Functions, Azure Blob Storage, Azure Data Lake, and Azure Data Factory, integrating CI/CD pipelines, and used Tableau for real-time data visualization.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
     {
-      date: "August 2018 – January 2019",
-      cardTitle: "TechSkills IT Consultants",
-      cardSubtitle: "Fullstack Developer Intern",
-      cardDetailedText:
-        "Developed a Meeting App website which handles all the data that happens in a meeting. In this project I developed several REST API's using Spring Boot and used the MVC architecture. These API's are being consumed in the frontend.",
+      date: "December 2018 – January 2019",
+      cardTitle: "Larsen and Toubro Infotech",
+      cardSubtitle: "Software Development Intern",
+      cardDetailedText: [
+        "Developed a responsive Online Assessment System platform with a user-friendly interface using JSP, HTML, CSS, and JavaScript.",
+        "Engineered the backend with Servlets, Spring Boot, and MySQL, creating 12+ RESTful endpoints.",
+      ].map(function (text) {
+        return <li>{text}</li>;
+      }),
     },
   ];
 

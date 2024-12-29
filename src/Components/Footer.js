@@ -3,32 +3,35 @@ const Footer = () => {
     <footer id="footer">
       <div class="container">
         <div class="social-links">
-          <a href="https://twitter.com/bhushanborole26" class="twitter">
+          {/* <a href="https://twitter.com/bhushanborole26" class="twitter">
             <i class="bx bxl-twitter"></i>
+          </a> */}
+          <a href="https://www.youtube.com/@urvashidhingra3963">
+                <i class="bx bxl-youtube"></i>
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/bhushan_borole_/"
             class="instagram"
           >
             <i class="bx bxl-instagram"></i>
-          </a>
-          <a href="https://github.com/bhushan-borole" class="google-plus">
+          </a> */}
+          <a href="https://github.com/urvashi1206" class="google-plus">
             <i class="bx bxl-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/bhushan-borole/"
+            href="https://www.linkedin.com/in/urvashidhingra12/"
             class="linkedin"
           >
             <i class="bx bxl-linkedin"></i>
           </a>
-          <a href="mailto:borolebhushan8@gmail.com">
+          <a href="mailto:dhingraurvashi99@gmail.com">
             <i class="bx bx-envelope"></i>
           </a>
         </div>
-        <div class="credits" style={{ color: "#74808a" }}>
+        {/* <div class="credits" style={{ color: "#74808a" }}>
           Made with <span style={{ color: "#e25555" }}>&hearts;</span> using
           React
-        </div>
+        </div> */}
       </div>
     </footer>
   );
