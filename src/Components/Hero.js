@@ -18,7 +18,7 @@ export default function Hero() {
               I'm a&nbsp;
               <span
                 class="typed"
-                data-typed-items="Game Designer"
+                data-typed-items="Game Developer"
               >
                 <Typed
                   strings={["Software Developer", "Gameplay Programmer", "Data Engineer", "Producer"]}
