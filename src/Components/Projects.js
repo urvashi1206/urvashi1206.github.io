@@ -15,110 +15,104 @@ import RemoveIcon from "@mui/icons-material/Remove";
 const Projects = () => {
   const items = [
     {
-      cardTitle: "Nuharc - Smart City Disaster Report App",
+      cardTitle: "AttireAvenue - Full-stack E-Commerce platform",
       cardDetailedText: [
-        "App to simulate disasters in Dublin.",
-        "Realtime traffic reporting upto 300ms latency.",
-        "Combines different velocity data streams to give a 99.9% accurate data.",
-        "Real time changes of disasters and re-routing of current users using sockets implementation.",
-        "All Emergency services directed towards the disaster as soon as someone reports.",
-        "Entire application is running in a dockerized container and hosted in Azure VM.",
-        "From scratch implementation of Load Balancing Algorithm (Weighted Round Robin) with Healthchecks.",
-        "All data is stored in NoSQL MongoDB.",
+        "Built a full-stack e-commerce platform with React.js and Spring Boot, following MVC architecture to showcase 1,000+ products.",
+        "Deployed a containerized app on AWS EC2 with Docker, using Auto Scaling and Load Balancer for scalability and performance.",
+        "Configured a Jenkins pipeline for (CI/CD) to automate updates and reduce downtime.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["MongoDB", "Express JS", "React JS", "Node JS"],
+      technologies: ["React.js", "SpringBoot", "SQL", "Docker", "Jenkins", "AWS"],
       links: [
         {
-          url: "https://github.com/TCD-ASE-6/Nuharc",
+          url: "https://github.com/urvashi1206/AttireAvenue",
           text: "View Source Code",
         },
       ],
     },
     {
-      cardTitle: "Woyse - A Multilingual Entity Recognition System",
+      cardTitle: "Flickbase - Web Application built using MERN Stack",
       cardDetailedText: [
-        "Build an end-to-end intent and entity recognition microservice in Django.",
-        "Built using Python as a main stack, and used Tornado for socket connection.",
+        "Developed a full-stack web application with React.js, Material UI, Node.js, and Express.js for post-loading and efficient article management, improving page load times by 20%.",
+        "Integrated MongoDB to handle CRUD operations through Express.js models.",
+        "Deployed the application on AWS EC2 with Docker, utilizing Auto Scaling and Elastic Load Balancer to ensure scalability and high availability.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["Python", "Django", "Rasa"],
-      links: [],
-    },
-    {
-      cardTitle: "Limitless File Sharing App",
-      cardDetailedText: [
-        "App that allows you to share ANY amount of data from one system to another.",
-        "The file is encoded using base64, then it is split into chunks and uploaded to Google Sheets. While downloading the serial order is maintained and it is decoded at client’s end.",
-      ].map(function (text) {
-        return <li>{text}</li>;
-      }),
-      technologies: ["Python", "Flask", "API"],
+      technologies: ["React.js", "Node.Js", "MongoDB", "Express"],
       links: [
         {
-          url: "https://github.com/vinay-deshmukh/Limitless-Client",
+        url: "https://github.com/urvashi1206/Flickbase",
+        text: "View Source Code",
+        },
+      ],
+    },
+    {
+      cardTitle: "Duolatera - A VR Multiplayer Puzzle Game",
+      cardDetailedText: [
+        "Developed a scalable dialogue system in C++ for the VR onboarding level. Created various VR interactables, such as buttons, and ring sensors. Designed player character skeletal mesh with IK for hand and head movement replication.",
+        "Implemented multiplayer networking using RPCs, emphasizing server reliability with RepNotify.",
+        "Produced custom shaders using HLSL in Unreal Engine. Managed team workflow as a Producer using Trello for task assignments.",
+      ].map(function (text) {
+        return <li>{text}</li>;
+      }),
+      technologies: ["Unreal Engine", "C++", "Perforce", "HLSL", "RPC", "Trello", "Agile"],
+      links: [
+        {
+          url: "https://github.com/Drifters-MSGDD/Duolatera",
           text: "View Source Code",
         },
       ],
     },
     {
-      cardTitle: "Finance Assistant Chatbot",
+      cardTitle: "Tower Defense Game",
       cardDetailedText: [
-        "Created a chatbot for Fin-tech companies for helping students regarding finances.",
-        "Tech stack comprises of Django, Rasa NLU and Postgresql.",
+        "Developed a Tower Defense game in Unity using C#, and implemented functionality for different resource buildings managing health reduction when damaged by enemies.",
+        "Implemented a resource management system for players to collect and use resources. Reflected changes dynamically during repairs, upgrades, or deletions of structures. Also, ensured that the in-game economy was updated accurately based on player actions.",
+        "Created particle systems to enhance the visual effects during gameplay.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["Python", "Django", "Rasa"],
+      technologies: ["Unreal Engine", "C++", "VFX", "GitHub"],
       links: [
         {
-          url: "https://github.com/Sitanshuk/HackPython",
+          url: "https://github.com/urvashi1206/Tower_DefenseGame",
           text: "View Source Code",
         },
       ],
     },
     {
-      cardTitle: "Text Summarization",
+      cardTitle: "Warped - A 3D isometric Puzzle Game",
       cardDetailedText: [
-        "It summarizes the given text into number of sentences or words in English and Punjabi.",
-        "Created in Flask and deployed on Google App Engine.",
+        "Designed and implemented the core rotation mechanic to enhance player navigation and interaction in a top-down isometric 3D puzzle game.",
+        "Implemented dynamic cutscene animations using Unity's Spline Tool to enhance narrative and gameplay integration.",
+        "Led the game development lifecycle, managing team coordination, task delegation, and milestone delivery to ensure project success.",
+        "Contributed to level design, VFX integration, and the overall conceptualization of challenging puzzles to deliver an engaging player experience.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-      technologies: ["Python", "GCP"],
+      technologies: ["Unity", "C#", "GitHub", "Agile", "VFX"],
       links: [
         {
-          url: "https://github.com/bhushan-borole/text-summarization",
+          url: "https://github.com/urvashi1206/Warped_Isometric_Game",
           text: "View Source Code",
         },
       ],
     },
     {
-      cardTitle: "Meeting App",
-      cardDetailedText:
-        "This project was created while I was working as a Full Stack Developer Intern. Created API's using Spring Boot and used the MVC architecture, and consumed these API's in the frontend.",
-      technologies: ["HTML", "CSS", "JS", "PHP"],
-      links: [
+      cardTitle: "Obra Dinn Shader ",
+      cardDetailedText: [
+        "Constructed a custom Unity shader, replicating the Return of the Obra Dinn, using Vertex and Fragment shaders.",
+        "Created a custom shader with grayscale dithering and real-time shading, applying lighting calculations to enhance low-poly models and achieve a dynamic, retro aesthetic.",
+    ].map(function (text) {
+      return <li>{text}</li>;
+    }),
+    technologies: ["Unity Shader", "Vertex Shader", "Fragment Shader", "C#"],
+    links: [
         {
-          url: "https://github.com/bhushan-borole/meeting-app",
+          url: "https://github.com/urvashi1206/ObraDinn_Shader",
           text: "View Source Code",
-        },
-      ],
-    },
-    {
-      cardTitle: "Justalk",
-      cardDetailedText: "A chat application made using React and Firebase Auth",
-      technologies: ["React JS", "Firebase"],
-      links: [
-        {
-          url: "https://github.com/bhushan-borole/justalk",
-          text: "View Source Code",
-        },
-        {
-          url: "https://bhushan-borole.github.io/justalk/",
-          text: "View Demo",
         },
       ],
     },
@@ -135,7 +129,7 @@ const Projects = () => {
   };
 
   const loadLess = () => {
-    setLimit(3);
+    setLimit(4);
     setLoadButton(true);
     setLessButton(false);
   };
