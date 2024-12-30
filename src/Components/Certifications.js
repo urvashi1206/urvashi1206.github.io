@@ -1,44 +1,46 @@
-import tf_badge from "./images/tf_badge.png";
-import mta from "./images/mta.png";
-import ocajp from "./images/ocajp.png";
-import google_assistant from "./images/google_assistant.png";
+import az_badge from "./images/microsoft-certified-azure-fundamentals.png";
+import unity from "./images/unity-essentials-pathway.png";
+import aws from "./images/aws.png";
+import sf from "./images/snowpro-core-certification.png";
 import Button from "@mui/material/Button";
 import Card from "react-bootstrap/Card";
 
-const Achievements = () => {
+const Certifications = () => {
     const items = [
         {
-            img: tf_badge,
-            cardTitle: "Tensorflow Developer Certificate",
-            cardText: "Issued on: <br/> April 18, 2020",
+            img: az_badge,
+            cardTitle: "Microsoft Certified: Azure Fundamentals",
+            cardText: "Issued on: <br/> May 30, 2022",
             btnText: "See Credential",
-            btnUrl: "https://www.credential.net/bef2570d-7d63-4f07-be28-57ec4da87373",
+            btnUrl: "https://www.credly.com/badges/8d52a8d6-b0d4-4ae6-8c4d-b07c2a72d217/public_url",
         },
         {
-            img: mta,
-            cardTitle: "Microsoft Technical Associate",
+            img: unity,
+            cardTitle: "Unity Essentials Pathway",
             cardText: "Issued on: <br/> June 14, 2019",
             btnText: "See Credential",
-            btnUrl: "https://www.youracclaim.com/badges/a5e09eea-6e4e-4934-bc2e-1f68679c1bb3/linked_in_profile",
+            btnUrl: "https://www.credly.com/badges/32147826-8331-4fdb-adab-88361d2a84e6/public_url",
         },
         {
-            img: ocajp,
-            cardTitle: "Oracle Certified Programmer",
-            cardText: "Issued on: <br/> July 20, 2018",
+            img: sf,
+            cardTitle: "SnowPro Core Certification",
+            cardText: "Issued on: <br/> February 14, 2022",
             btnText: "See Credential",
-            btnUrl: "https://www.youracclaim.com/badges/caf3f573-a61d-4e0e-8560-5353a6a83693/linked_in_profile",
+            btnUrl: "https://drive.google.com/file/d/1_ANYCKZ7im7iwoCOkkXkWazYVIbvf32P/view?usp=drive_link",
         },
         {
-            img: google_assistant,
-            cardTitle: "Google Assistant Developer",
-            cardText: "Developed a game called Amazing Riddles.",
+            img: aws,
+            cardTitle: "AWS Certified Cloud Practitioner 2025",
+            cardText: "Issued on: <br/> July 25, 2021",
+            btnText: "See Credential",
+            btnUrl: "https://drive.google.com/file/d/1ZrlQy--6t-jBXbZmPBL1b0MYGPutDTOD/view?usp=drive_link",
         },
     ];
     return (
-        <section id="achievements" class="about background-alt">
+        <section id="certifications" class="about background-alt">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
-                    <h2>Achievements</h2>
+                    <h2>Certifications</h2>
                 </div>
                 <div class="row">
                     {items.map((data, i) => (
@@ -101,4 +103,4 @@ const Achievements = () => {
     );
 };
 
-export default Achievements;
+export default Certifications;
