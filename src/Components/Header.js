@@ -126,6 +126,12 @@ class Header extends React.Component {
                 </a>
               </li>
               <li>
+                <a href="#achievements" class="nav-link scrollto d-flex justify-content-center">
+                  <i class="bx bx-award"></i> 
+                  <span>Achievements</span>
+                </a>
+              </li>
+              <li>
                 <a href="#education" class="nav-link scrollto d-flex justify-content-center">
                   <SchoolIcon />
                   <span>Education</span>
