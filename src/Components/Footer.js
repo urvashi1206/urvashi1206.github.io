@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="footer" className="bg-dark-gray text-gray-700 py-8 text-center">
       <div class="container">
         <div class="social-links">
           {/* <a href="https://twitter.com/bhushanborole26" class="twitter">
