@@ -44,7 +44,7 @@ const Achievements = () => {
   );
 
   return (
-    <section id="achievements-responsibilities" class="about background-alt">
+    <section id="achievements" class="about background-alt">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
                 <h2>Achievements & Responsibilities</h2>

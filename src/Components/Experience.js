@@ -58,7 +58,7 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" class="about background-alt" style={{ paddingTop: "8rem" }}>
+    <section id="experience" class="about background-alt">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Experience</h2>

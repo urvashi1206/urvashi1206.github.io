@@ -63,6 +63,10 @@ const Projects = () => {
           url: "https://github.com/Drifters-MSGDD/Duolatera",
           text: "View Source Code",
         },
+        {
+          url: "https://www.youtube.com/watch?v=3c0c1eBbZlo&ab_channel=Abis",
+          text: "View Demo",
+        },
       ],
     },
     {
@@ -79,6 +83,10 @@ const Projects = () => {
         {
           url: "https://github.com/urvashi1206/Tower_DefenseGame",
           text: "View Source Code",
+        },
+        {
+          url: "https://www.youtube.com/watch?v=IiR_-ladU0k&t=33s&ab_channel=UrvashiDhingra",
+          text: "View Demo",
         },
       ],
     },
@@ -98,6 +106,10 @@ const Projects = () => {
           url: "https://github.com/urvashi1206/Warped_Isometric_Game",
           text: "View Source Code",
         },
+        {
+          url: "https://www.youtube.com/watch?v=O_NReiN2AGU&t=5s&ab_channel=UrvashiDhingra",
+          text: "View Demo",
+        },
       ],
     },
     {
@@ -113,6 +125,10 @@ const Projects = () => {
         {
           url: "https://github.com/urvashi1206/ObraDinn_Shader",
           text: "View Source Code",
+        },
+        {
+          url: "https://www.youtube.com/watch?v=xL1Xgv6Zuqo&ab_channel=UrvashiDhingra",
+          text: "View Demo",
         },
       ],
     },
@@ -236,7 +252,7 @@ const Projects = () => {
                     </IconButton>
                   }
                   iconStyle={{
-                    background: "#a8d49b",
+                    background: "rgb(18, 54, 54)",
                     color: "#fff",
                     // position: "absolute",
                     // top: "50%", // Center the button vertically
@@ -260,7 +276,7 @@ const Projects = () => {
                     </IconButton>
                   }
                   iconStyle={{
-                    background: "#a8d49b",
+                    background: "rgb(18, 54, 54)",
                     color: "#fff",
                   }}
                 />
