@@ -230,6 +230,7 @@ const Projects = () => {
                         style={{
                           color: "#fff",
                           marginTop: "0.1px",
+                          marginBottom: "40px"
                         }}
                       />
                     </IconButton>
@@ -237,6 +238,9 @@ const Projects = () => {
                   iconStyle={{
                     background: "#a8d49b",
                     color: "#fff",
+                    // position: "absolute",
+                    // top: "50%", // Center the button vertically
+                    // transform: "translateY(-50%)", // Adjust centering
                   }}
                 />
               )}
@@ -250,6 +254,7 @@ const Projects = () => {
                         style={{
                           color: "#fff",
                           marginTop: "0.1px",
+                          marginBottom: "40px"
                         }}
                       />
                     </IconButton>
