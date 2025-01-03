@@ -16,7 +16,7 @@ export default function About() {
             <img
               src={img}
               height="100%"
-              width="75%"
+              width="100%"
               style={{ borderRadius: "10%" }}
             />
           </Col>
@@ -25,12 +25,12 @@ export default function About() {
             <h3 style={{ fontSize: "1.5rem" }}>Software Developer</h3>
             <br />
             <p style={{ color: "rgb(255,255,255,0.7)", fontSize: "1.1rem" }}>
-              An aspiring Software/Game Developer passionate about crafting immersive systems and optimizing innovative solutions.
+              An aspiring Software Developer and Data Engineer, I specialize in designing and implementing scalable systems that drive efficiency and innovation.
               <br />
               <br />
             </p>
             <p style={{ color: "rgb(255,255,255,0.9)", fontSize: "1.1rem" }}>
-              I'm a graduate student pursuing a Master of Science in Game Design and Development at Rochester Institute of Technology, with a GPA of 4.0. I have professional experience as a Data Engineer at Quantiphi, where I built ETL pipelines, automated workflows, and developed data-driven solutions. I also worked as a Gameplay Programmer and Producer, creating VR simulations and immersive experiences. Skilled in programming languages like Python, Java, and C#, I have hands-on experience in backend development, cloud computing, and game engines like Unity and Unreal Engine. At RIT, I also contribute to innovative gaming projects, pushing the boundaries of interactive experiences.
+              I'm a graduate student pursuing a Master of Science in Game Design and Development at Rochester Institute of Technology, with a GPA of 4.0. With professional experience as a Data Engineer at Quantiphi, I developed ETL pipelines, automated workflows, and implemented cloud-based solutions to process and analyze large datasets. My expertise spans backend development, cloud technologies like AWS and GCP, and programming languages including Python, Java, and SQL. At Rochester Institute of Technology, I am pursuing a Master of Science in Game Design and Development with a perfect GPA of 4.0, where I have further honed my skills in software development by contributing to projects focused on data-driven solutions and system optimization.
               <br />
               <br />
               Consistently seeking challenging roles in organizations where I can leverage my skills to contribute to the company’s growth while continuously enhancing my expertise. I thrive in collaborative environments and actively seek mentorship and opportunities to grow professionally.
@@ -53,7 +53,7 @@ export default function About() {
                 <ul style={{ fontSize: "1rem" }}>
                   <li>
                     <i className="bi bi-chevron-right"></i> <strong>Degree:</strong>{" "}
-                    <span>MSc - Game Design and Development</span>
+                    <span>MS - Game Design and Development</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i> <strong>Email:</strong>{" "}

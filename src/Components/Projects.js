@@ -49,6 +49,22 @@ const Projects = () => {
       ],
     },
     {
+      cardTitle: "Disease Prediction Portal",
+      cardDetailedText: [
+        "Created Machine Learing models with SVM, KNN, and Random Forest, achieving 97% accuracy in CKD prediction.",
+        "Built a Python-Django web portal integrated with machine learning models and Cloud Firestore for real-time data synchronization, with UI/UX designs created using Figma.",
+      ].map(function (text) {
+        return <li>{text}</li>;
+      }),
+      technologies: ["Python", "Django", "Firebase", "Figma"],
+      links: [
+        {
+        url: "https://github.com/urvashi1206/DiseasePredictionPortal",
+        text: "View Source Code",
+        },
+      ],
+    },
+    {
       cardTitle: "Duolatera - A VR Multiplayer Puzzle Game",
       cardDetailedText: [
         "Developed a scalable dialogue system in C++ for the VR onboarding level. Created various VR interactables, such as buttons, and ring sensors. Designed player character skeletal mesh with IK for hand and head movement replication.",
@@ -112,29 +128,9 @@ const Projects = () => {
         },
       ],
     },
-    {
-      cardTitle: "Obra Dinn Shader ",
-      cardDetailedText: [
-        "Constructed a custom Unity shader, replicating the Return of the Obra Dinn, using Vertex and Fragment shaders.",
-        "Created a custom shader with grayscale dithering and real-time shading, applying lighting calculations to enhance low-poly models and achieve a dynamic, retro aesthetic.",
-    ].map(function (text) {
-      return <li>{text}</li>;
-    }),
-    technologies: ["Unity Shader", "Vertex Shader", "Fragment Shader", "C#"],
-    links: [
-        {
-          url: "https://github.com/urvashi1206/ObraDinn_Shader",
-          text: "View Source Code",
-        },
-        {
-          url: "https://www.youtube.com/watch?v=xL1Xgv6Zuqo&ab_channel=UrvashiDhingra",
-          text: "View Demo",
-        },
-      ],
-    },
   ];
 
-  const [limit, setLimit] = useState(4);
+  const [limit, setLimit] = useState(3);
   const [loadButton, setLoadButton] = useState(true);
   const [lessButton, setLessButton] = useState(false);
 
@@ -145,7 +141,7 @@ const Projects = () => {
   };
 
   const loadLess = () => {
-    setLimit(4);
+    setLimit(3);
     setLoadButton(true);
     setLessButton(false);
   };

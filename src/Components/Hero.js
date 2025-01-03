@@ -25,9 +25,7 @@ export default function Hero() {
                 <Typewriter
                   words={[
                     "Software Developer",
-                    "Gameplay Programmer",
                     "Data Engineer",
-                    "Producer",
                   ]}
                   loop={true} // Ensures it keeps looping
                   cursor
@@ -68,24 +66,7 @@ export default function Hero() {
                 },
               }}
             >
-              Software Resume
-            </Button>
-
-            <Button
-              variant="outlined"
-              target="_blank"
-              href="https://drive.google.com/file/d/1pdTXUh4Zewe_S1dLpmxSZee-yeFywLvd/view?usp=drive_link"
-              startIcon={<CloudDownloadIcon />}
-              sx={{
-                color: "rgb(179, 195, 209)", // Default text color
-                borderColor: "rgb(144, 157, 168)", // Default border color
-                "&:hover": {
-                  color: "#a8d49b", // Hover text color
-                  borderColor: "#a8d49b", // Hover border color
-                },
-              }}
-            >
-              Game Resume
+            View Resume
             </Button>
             </div>
           </Col>
