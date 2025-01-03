@@ -118,7 +118,7 @@ const Projects = () => {
     },
   ];
 
-  const [limit, setLimit] = useState(3);
+  const [limit, setLimit] = useState(4);
   const [loadButton, setLoadButton] = useState(true);
   const [lessButton, setLessButton] = useState(false);
 
