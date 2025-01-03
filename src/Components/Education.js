@@ -56,14 +56,14 @@ const Education = () => {
                 <VerticalTimelineElement
                   key={i}
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: "#343a40" }}
+                  contentStyle={{ background: "rgba(52, 58, 64, 0.3)" }}
                   date={data.date}
                   dateClassName="timeline-date"
                   contentArrowStyle={{
-                    borderRight: "7px solid  rgb(33, 150, 243)",
+                    borderRight: "7px solid  #a8d49b",
                   }}
                   iconStyle={{
-                    background: "#0563bb",
+                    background: "#a8d49b",
                     color: "#fff",
                   }}
                   icon={<SchoolIcon />}
@@ -72,7 +72,7 @@ const Education = () => {
                     className="vertical-timeline-element-title"
                     style={{
                       fontSize: "14",
-                      color: "rgba(255, 255, 255, 0.8)",
+                      color: "rgba(255, 255, 255, 0.7)",
                     }}
                   >
                     {data.cardTitle}
@@ -82,7 +82,7 @@ const Education = () => {
                     style={{
                       fontSize: "1.2em",
                       fontWeight: "350",
-                      color: "#7e8890",
+                      color: "rgba(255, 255, 255, 1.0)",
                       marginTop: "5px",
                     }}
                   >
@@ -93,7 +93,7 @@ const Education = () => {
                     style={{
                       fontSize: "1em",
                       fontWeight: "250",
-                      color: "#7e8890",
+                      color: "rgba(255, 255, 255, 0.7)",
                       marginTop: "5px",
                     }}
                   >
@@ -103,7 +103,7 @@ const Education = () => {
                     style={{
                       fontSize: "1em",
                       fontWeight: "350",
-                      color: "#74808a",
+                      color: "rgba(255, 255, 255, 1)",
                     }}
                   >
                     {data.cardDetailedText}
@@ -112,7 +112,7 @@ const Education = () => {
               ))}
               <VerticalTimelineElement
                 iconStyle={{
-                  background: "#0563bb",
+                  background: "#a8d49b",
                   color: "#fff",
                 }}
                 icon={<StarIcon />}

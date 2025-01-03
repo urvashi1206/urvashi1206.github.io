@@ -10,9 +10,8 @@
 @tailwind utilities;
 
 /* Apply gradient background globally */
-body {
-  @apply bg-hero-gradient text-white min-h-screen;
-}
+
+
 
 
 /*--------------------------------------------------------------
@@ -32,6 +31,7 @@ a:hover {
   color: #a8d49b;
   text-decoration: none;
 } */
+
 
 h1,
 h2,
@@ -275,6 +275,7 @@ h6 {
 .mobile-nav-active .mobile-nav-toggle {
   color: #45505b;
   background-color: #a8d49b;
+
 }
 
 /*--------------------------------------------------------------
@@ -349,11 +350,11 @@ h6 {
 }
 
 #hero .social-links a {
-  font-size: 24px;
+  font-size: 36px;
   display: inline-block;
   color: #b4cfeb;
   line-height: 1;
-  margin-right: 20px;
+  margin-right: 24px;
   transition: 0.3s;
 }
 
@@ -389,9 +390,7 @@ section {
   padding-bottom: 30px;
 }
 
-/* .background-alt {
-  background: #2e2d2b;
-} */
+
 
 .section-title h2 {
   font-size: 32px;
@@ -429,7 +428,9 @@ section {
   margin-bottom: 0;
   color: #98a6ad;
 }
-
+/* .background-alt {
+  background: #2e2d2b;
+} */
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -591,7 +592,7 @@ section {
 
 .timeline-date {
   font-weight: 500;
-  color: #98a6ad;
+  color: rgba(255, 255, 255, 1.0);
 }
 
 .projects-technologies {
@@ -749,18 +750,18 @@ section {
 }
 
 #footer .social-links {
-  margin: 0 0 40px 0;
+  margin: 40px 0 40px 0;
 }
 
 #footer .social-links a {
-  font-size: 24px;
+  font-size: 36px;
   display: inline-block;
   /* background: #0563bb; */
   /* color: #fff; */
   color: #bedcf4;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 24px;
   border-radius: 50%;
   text-align: center;
   width: 36px;

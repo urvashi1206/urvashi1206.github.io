@@ -39,7 +39,7 @@ const Technologies = () => {
     { Icon: FaJsSquare, label: "JavaScript", color: "text-yellow-400" },
     { Icon: SiOracle, label: "Oracle", color: "text-red-700" },
     { Icon: FaDatabase, label: "SQL / PL-SQL", color: "text-blue-500" },
-    { Icon: SiUnity, label: "Unity", color: "text-gray-700" }, // Adjusted Unity color for subtle contrast
+    { Icon: SiUnity, label: "Unity", color: "text-gray-300" },
     { Icon: SiUnrealengine, label: "Unreal", color: "text-blue-600" },
     { Icon: SiSpringboot, label: "Spring Boot", color: "text-green-700" },
     { Icon: SiAmazonwebservices, label: "AWS", color: "text-orange-500" },
@@ -78,7 +78,10 @@ const Technologies = () => {
               variants={iconVariants(getRandomDuration())} // Use random duration
               initial="initial"
               animate="animate"
-              className="relative group rounded-2xl border-4 border-neutral-800 p-4 bg-[#222222]"
+              className="relative group rounded-2xl border-1 border-neutral-800 p-4"
+              style={{
+                backgroundColor: "rgba(52, 64, 60, 0.3)", // Updated background color
+              }}
             >
               <Icon className={`text-7xl ${color}`} />
               <span className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 text-sm text-white opacity-0 group-hover:opacity-100 transition-opacity">

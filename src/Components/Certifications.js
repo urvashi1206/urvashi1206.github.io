@@ -59,7 +59,7 @@ const Certifications = () => {
                             <Card
                                 style={{
                                     width: "16rem",
-                                    background: "#343a40",
+                                    background: "rgba(52, 64, 60, 0.3)",
                                     padding: "20px",
                                 }}
                                 className="text-center"
@@ -68,24 +68,31 @@ const Certifications = () => {
                                 <Card.Body>
                                     <Card.Title
                                         style={{
-                                            color: "rgba(255, 255, 255, 0.7)",
+                                            color: "rgba(255, 255, 255, 1)",
                                             fontSize: "18px",
                                         }}
                                     >
                                         {data.cardTitle}
                                     </Card.Title>
                                     <br></br>
-                                    <Card.Text style={{ color: "#74808a" }}>
+                                    <Card.Text style={{ color: "rgba(255, 255, 255, 0.7)" }}>
                                         <div
                                             dangerouslySetInnerHTML={{
                                                 __html: data.cardText,
                                             }}
                                         ></div>
                                     </Card.Text>
+                                    <br></br>
                                     {data.btnText && (
                                         <Button
                                             variant="contained"
                                             color="default"
+                                            sx={{
+                                                backgroundColor: "rgb(18, 54, 54)",
+                                                "&:hover": {
+                                                color: "#a8d49b", // Hover text color
+                                              },
+                                            }}
                                             target="_blank"
                                             href={data.btnUrl}
                                         >

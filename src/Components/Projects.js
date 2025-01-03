@@ -154,20 +154,28 @@ const Projects = () => {
                 <VerticalTimelineElement
                   key={i}
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: "#343a40" }}
+                  contentStyle={{ background: "rgba(52, 58, 64, 0.3)" }}
                   dateClassName="timeline-date"
                   contentArrowStyle={{
-                    borderRight: "7px solid  rgb(33, 150, 243)",
+                    borderRight: "7px solid  #a8d49b",
                   }}
                   icon={<CodeIcon />}
                   iconStyle={{
-                    background: "#0563bb",
+                    background: "#a8d49b",
                     color: "#fff",
                   }}
                 >
                   <div className="projects-technologies">
                     {data.technologies.map((name, i) => (
-                      <Chip key={i} label={name}></Chip>
+                      <Chip
+                        key={i}
+                        label={name}
+                        sx={{
+                          backgroundColor: "rgb(18, 54, 54)",
+                          color: "rgb(255, 255, 255)",
+                          fontWeight: "bold",
+                        }}
+                      ></Chip>
                     ))}
                   </div>
                   <h3
@@ -183,7 +191,7 @@ const Projects = () => {
                     style={{
                       fontSize: "1em",
                       fontWeight: "350",
-                      color: "#74808a",
+                      color: "rgba(255, 255, 255, 1)",
                     }}
                   >
                     {data.cardDetailedText}
@@ -196,6 +204,12 @@ const Projects = () => {
                           key={j} // eslint-disable-line react/no-array-index-key
                           variant="contained"
                           color="default"
+                          sx={{
+                            backgroundColor: "rgb(18, 54, 54)",
+                            "&:hover": {
+                            color: "#a8d49b", // Hover text color
+                          },
+                        }}
                           target="_blank"
                           href={link.url}
                         >
@@ -221,7 +235,7 @@ const Projects = () => {
                     </IconButton>
                   }
                   iconStyle={{
-                    background: "#0563bb",
+                    background: "#a8d49b",
                     color: "#fff",
                   }}
                 />
@@ -241,7 +255,7 @@ const Projects = () => {
                     </IconButton>
                   }
                   iconStyle={{
-                    background: "#0563bb",
+                    background: "#a8d49b",
                     color: "#fff",
                   }}
                 />

@@ -11,9 +11,9 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative bg-hero-gradient text-white h-screen flex flex-col items-center justify-center"
+      className="relative flex items-center justify-center min-h-screen"
     >
-       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black opacity-80"></div>
+       {/* <div className="section-background"></div> */}
       <Container data-aos="zoom-in" data-aos-delay="500">
         <Row>
           <Col lg={6} className="item-center">
@@ -54,31 +54,39 @@ export default function Hero() {
             </div>
             <br />
             <div style={{ display: "flex", gap: "15px", marginTop: "10px" }}>
-              <Button
-                variant="outlined"
-                target="_blank"
-                href="https://drive.google.com/file/d/1pdTXUh4Zewe_S1dLpmxSZee-yeFywLvd/view?usp=drive_link"
-                startIcon={<CloudDownloadIcon />}
-                style={{
-                  color: "rgb(116, 128, 138)",
-                  borderColor: "rgb(116, 128, 138)",
-                }}
-              >
-                Download Resume
-              </Button>
+            <Button
+              variant="outlined"
+              target="_blank"
+              href="https://drive.google.com/file/d/1pdTXUh4Zewe_S1dLpmxSZee-yeFywLvd/view?usp=drive_link"
+              startIcon={<CloudDownloadIcon />}
+              sx={{
+                color: "rgb(179, 195, 209)", // Default text color
+                borderColor: "rgb(144, 157, 168)", // Default border color
+                "&:hover": {
+                  color: "#a8d49b", // Hover text color
+                  borderColor: "#a8d49b", // Hover border color
+                },
+              }}
+            >
+              Software Resume
+            </Button>
 
-              <Button
-                variant="outlined"
-                target="_blank"
-                href="https://drive.google.com/drive/u/0/folders/1CyNbiF5iMgCsjPZTbyZGJL2NEscVr0rD"
-                startIcon={<CloudDownloadIcon />}
-                style={{
-                  color: "rgb(116, 128, 138)",
-                  borderColor: "rgb(116, 128, 138)",
-                }}
-              >
-                Download Resume
-              </Button>
+            <Button
+              variant="outlined"
+              target="_blank"
+              href="https://drive.google.com/file/d/1pdTXUh4Zewe_S1dLpmxSZee-yeFywLvd/view?usp=drive_link"
+              startIcon={<CloudDownloadIcon />}
+              sx={{
+                color: "rgb(179, 195, 209)", // Default text color
+                borderColor: "rgb(144, 157, 168)", // Default border color
+                "&:hover": {
+                  color: "#a8d49b", // Hover text color
+                  borderColor: "#a8d49b", // Hover border color
+                },
+              }}
+            >
+              Game Resume
+            </Button>
             </div>
           </Col>
           <Col

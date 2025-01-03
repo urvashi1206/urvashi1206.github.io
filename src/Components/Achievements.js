@@ -32,6 +32,9 @@ const Achievements = () => {
     <div
       key={index}
       className="p-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105 bg-[#343a40]"
+      style={{
+        backgroundColor: "rgba(52, 64, 60, 0.3)",
+      }}
     >
       <h4 className="text-white text-lg font-semibold mb-2">{item.title}</h4>
       {item.description && (

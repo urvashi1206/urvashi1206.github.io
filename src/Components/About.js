@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 export default function About() {
   return (
-    <section id="about" class="about background-alt">
+    <section id="about" class="relative py-1">
       <Container data-aos="fade-up">
         <div class="section-title">
           <h2>About</h2>
@@ -16,18 +16,20 @@ export default function About() {
             <img
               src={img}
               height="100%"
-              width="100%"
+              width="75%"
               style={{ borderRadius: "10%" }}
             />
           </Col>
           <Col lg={8} pt={4} className="content">
             <br></br>
-            <h3>Software Developer.</h3>
+            <h3 style={{ fontSize: "1.5rem" }}>Software Developer</h3>
             <br></br>
-            <p style={{ color: "#728394" }}>
+            <p style={{ color: "rgb(255,255,255,0.7)", fontSize: "1.1rem" }}>
             An aspiring Software/Game Developer passionate about crafting immersive systems and optimizing innovative solutions.
+            <br></br>
+            <br></br>
             </p>
-            <p style={{ color: "#728394" }}>
+            <p style={{ color: "rgb(255,255,255,0.9)", fontSize: "1.1rem" }}>
             I'm a graduate student pursuing a Master of Science in Game Design and Development at Rochester Institute of Technology, with a GPA of 4.0.
             I have professional experience as a Data Engineer at Quantiphi, where I built ETL pipelines, automated workflows, and developed data-driven solutions.
             I also worked as a Gameplay Programmer and Producer, creating VR simulations and immersive experiences.
@@ -42,7 +44,7 @@ export default function About() {
             <br></br>
             <Row>
               <Col lg={4}>
-                <ul>
+                <ul style={{ fontSize: "1rem" }}>
                   <li>
                     <i class="bi bi-chevron-right"></i> <strong>Phone:</strong>{" "}
                     <span>+1 (551) 344-8575</span>
@@ -54,7 +56,7 @@ export default function About() {
                 </ul>
               </Col>
               <Col lg={7}>
-                <ul>
+                <ul style={{ fontSize: "1rem" }}>
                   <li>
                     <i class="bi bi-chevron-right"></i> <strong>Degree:</strong>{" "}
                     <span>MSc - Game Design and Development</span>
@@ -62,7 +64,7 @@ export default function About() {
                   <li>
                     <i class="bi bi-chevron-right"></i> <strong>Email:</strong>{" "}
                     <span>
-                      <a href="mailto:dhingraurvashi99@gmail.com"  className="text-primary-green no-underline hover:text-primary-green">
+                      <a href="mailto:dhingraurvashi99@gmail.com"  className="text-primary-green no-underline hover:text-hover-green">
                         dhingraurvashi99@gmail.com
                       </a>
                     </span>
