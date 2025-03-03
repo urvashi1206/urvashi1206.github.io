@@ -26,7 +26,7 @@ const Education = () => {
       date: "2023 - Present",
     },
     {
-      cardTitle: "Mumbai University",
+      cardTitle: "University of Mumbai",
       cardSubtitle: "BE in Electronics Engineering",
       coursesHead: "Courses: ",
       cardDetailedText: [
