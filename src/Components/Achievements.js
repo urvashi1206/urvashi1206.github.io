@@ -8,11 +8,11 @@ const Achievements = () => {
         "A Real-life Unity3D Application in IEEE International Conference on Computing, Communication, and Intelligent Systems.",
     },
     {
-      title: "Secured 3rd place for academic excellence",
+      title: "Secured 3rd place for academic excellence at FRCRCE - Mumbai University, India",
       description: "",
     },
     {
-      title: "Secured 1st place in Fr. Conceicao Rodrigues Memorial Hackathon UNSCRIPT 2k20",
+      title: "Secured 1st place in Fr. Conceicao Rodrigues Memorial Hackathon UNSCRIPT 2k20, Mumbai University, India",
       description: "",
     },
   ];
@@ -20,11 +20,11 @@ const Achievements = () => {
   const responsibilitiesData = [
     {
       title: "Marketing Head",
-      description: "ABU ROBOCON Team, Fr. CRCE.",
+      description: "ABU ROBOCON Team, Mumbai University, India",
     },
     {
       title: "Webmaster",
-      description: "IEEE-WIE Council, Fr. CRCE.",
+      description: "IEEE-WIE Council, Mumbai University, India",
     },
   ];
 

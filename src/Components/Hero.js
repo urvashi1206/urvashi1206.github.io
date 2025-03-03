@@ -24,7 +24,7 @@ export default function Hero() {
               <span className="typed">
                 <Typewriter
                   words={[
-                    "Software Developer",
+                    "Software Engineer",
                     "Data Engineer",
                   ]}
                   loop={true} // Ensures it keeps looping

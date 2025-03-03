@@ -22,7 +22,7 @@ export default function About() {
           </Col>
           <Col lg={8} pt={4} className="content">
             <br />
-            <h3 style={{ fontSize: "1.5rem" }}>Software Developer</h3>
+            <h3 style={{ fontSize: "1.5rem" }}>Software Engineer</h3>
             <br />
             <p style={{ color: "rgb(255,255,255,0.7)", fontSize: "1.1rem" }}>
               An aspiring Software Developer and Data Engineer, I specialize in designing and implementing scalable systems that drive efficiency and innovation.
