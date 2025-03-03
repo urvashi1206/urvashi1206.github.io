@@ -27,7 +27,7 @@ const Education = () => {
     },
     {
       cardTitle: "University of Mumbai",
-      cardSubtitle: "BE in Electronics Engineering",
+      cardSubtitle: "BE - Electronics Engineering",
       coursesHead: "Courses: ",
       cardDetailedText: [
         "Data Structures and Algorithms",

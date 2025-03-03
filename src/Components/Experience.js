@@ -46,7 +46,7 @@ export default function Experience() {
     {
       date: "December 2018 – January 2019",
       cardTitle: "Larsen and Toubro Infotech",
-      cardSubtitle: "Software Development Intern",
+      cardSubtitle: "Software Engineer Intern",
       cardDetailedText: [
         "Developed a responsive Online Assessment System platform with a user-friendly interface using JSP, HTML, CSS, and JavaScript.",
         "Engineered the backend with Servlets, Spring Boot, and MySQL, creating 12+ RESTful endpoints.",

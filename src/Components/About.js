@@ -25,7 +25,7 @@ export default function About() {
             <h3 style={{ fontSize: "1.5rem" }}>Software Engineer</h3>
             <br />
             <p style={{ color: "rgb(255,255,255,0.7)", fontSize: "1.1rem" }}>
-              An aspiring Software Developer and Data Engineer, I specialize in designing and implementing scalable systems that drive efficiency and innovation.
+              An aspiring Software/Data Engineer, I specialize in designing and implementing scalable systems that drive efficiency and innovation.
               <br />
               <br />
             </p>
