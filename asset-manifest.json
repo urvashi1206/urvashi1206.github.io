@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b791753.css",
-    "main.js": "/static/js/main.e5f0a140.js",
+    "main.js": "/static/js/main.25610efd.js",
     "static/js/453.5a04fe8b.chunk.js": "/static/js/453.5a04fe8b.chunk.js",
     "static/media/urvashi_.jpg": "/static/media/urvashi_.cbc594f18baf3c9669cd.jpg",
     "static/media/urvashi.jpg": "/static/media/urvashi.a6de7e80dbf555e43ac6.jpg",
@@ -18,11 +18,11 @@
     "static/media/aws.png": "/static/media/aws.5f00915e93a3e44b852d.png",
     "index.html": "/index.html",
     "main.3b791753.css.map": "/static/css/main.3b791753.css.map",
-    "main.e5f0a140.js.map": "/static/js/main.e5f0a140.js.map",
+    "main.25610efd.js.map": "/static/js/main.25610efd.js.map",
     "453.5a04fe8b.chunk.js.map": "/static/js/453.5a04fe8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b791753.css",
-    "static/js/main.e5f0a140.js"
+    "static/js/main.25610efd.js"
   ]
 }
