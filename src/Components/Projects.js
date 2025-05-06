@@ -80,7 +80,7 @@ const Projects = () => {
           text: "View Source Code",
         },
         {
-          url: "https://www.youtube.com/watch?v=3c0c1eBbZlo&ab_channel=Abis",
+          url: "https://www.youtube.com/watch?v=jRAzf4K0xFw&ab_channel=Duolatera",
           text: "View Demo",
         },
       ],
